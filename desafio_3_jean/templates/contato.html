@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block conteudo %}
+
+<title>Contato</title>
+
+<div id="div_qs">
+  <h2 class="txt_qs">Entre em contato</h2>
+  <p class="txt_qs"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut esse quisquam cumque non ipsa omnis odio excepturi quae. Necessitatibus ipsum pariatur maiores vel dolorem iusto quae nulla, numquam nisi autem.</p>
+</div>
+
+  <hr id="hr1">    
+
+  <div id="div_qs"></div>
+    <form method='POST' action="/contato/">
+      <p class="txt_qs">Seu e-mail:</p>
+      <input class="txt_qs" name="email" required type="text">
+
+      <p class="txt_qs">Assunto:</p>
+      <input class="txt_qs" name="assunto" required type="text">
+
+      <p class="txt_qs">descrição:</p>
+      <textarea class="txt_qs" name="descricao" rows="3" cols="21" required name="descricao"></textarea>
+
+      <p></p>
+      <input class="txt_qs" type="submit" >
+    </form>
+
+
+
+
+
+
+
+
+    {% endblock %} 

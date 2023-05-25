@@ -1,0 +1,59 @@
+.img{
+    margin-left: 70px;
+}
+
+
+#bar {
+ background: #7377a3;
+ height: 5px;
+ width: 100%;
+
+    }
+
+#txt{
+    margin-left: 1205px;
+    margin-top: 0px;
+    padding-bottom: 2px;
+}
+
+#img{
+    margin-top: 1%;
+}
+
+#capa{
+    display: block; 
+
+   
+}
+
+#capa_img{
+    border-left: 510px solid #efefef;
+    border-right: 510px solid #efefef;
+    margin-left: auto; 
+    margin-right: auto;
+    display: block; 
+}
+
+.direitos{
+     text-align: center;
+}
+
+#div_qs{
+    margin-top: 50px;
+}
+.txt_qs{
+    margin-left: 80px;
+    max-width: 1690px;
+   
+}
+
+#hr1{
+width: 90%;
+}
+
+.txt_home{
+    margin-left: 500px;
+    max-width: 900px;
+}
+
+
